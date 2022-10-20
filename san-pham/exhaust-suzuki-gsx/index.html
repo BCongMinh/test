@@ -603,7 +603,57 @@ var sp_wps_load_script = {"path":"http:\/\/localhost:7000\/myproject\/wordpress\
 <link rel="alternate" type="application/json+oembed" href="https://bcongminh.github.io/test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2Fsan-pham%2Fexhaust-suzuki-gsx%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://bcongminh.github.io/test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A7000%2Fmyproject%2Fwordpress%2Fsan-pham%2Fexhaust-suzuki-gsx%2F&#038;format=xml">
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	</head>
+	<meta name="generator" content="Powered by Slider Revolution 6.6.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+</head>
 
 <body class="product-template-default single single-product postid-506 wp-embed-responsive theme-storefront woocommerce woocommerce-page woocommerce-no-js storefront-full-width-content storefront-align-wide right-sidebar woocommerce-active elementor-default elementor-kit-10">
 
@@ -696,8 +746,8 @@ var sp_wps_load_script = {"path":"http:\/\/localhost:7000\/myproject\/wordpress\
 	<form class="cart" action="http://localhost:7000/myproject/wordpress/san-pham/exhaust-suzuki-gsx/" method="post" enctype="multipart/form-data">
 		
 			<div class="quantity">
-				<label class="screen-reader-text" for="quantity_634e6eeb25f7a">Exhaust – Suzuki GSX số lượng</label>
-		<input type="number" id="quantity_634e6eeb25f7a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="SL" size="4" placeholder="" inputmode="numeric" autocomplete="off">
+				<label class="screen-reader-text" for="quantity_635091cfd8188">Exhaust – Suzuki GSX số lượng</label>
+		<input type="number" id="quantity_635091cfd8188" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="SL" size="4" placeholder="" inputmode="numeric" autocomplete="off">
 			</div>
 	
 		<button type="submit" name="add-to-cart" value="506" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
@@ -789,17 +839,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 		<ul class="products columns-3">
 
 			
-					<li class="product type-product post-491 status-publish first instock product_cat-exhausts product_tag-exhausts has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://bcongminh.github.io/test/san-pham/arrow-exhaust-honda/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="https://bcongminh.github.io/test/wp-content/uploads/2022/10/159.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"><h2 class="woocommerce-loop-product__title">Arrow Exhaust – Honda</h2>
-<div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="onsale">Giảm giá!</span>
-	
-	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>19.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>16.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
-</a><a href="https://bcongminh.github.io/test/san-pham/exhaust-suzuki-gsx/?add-to-cart=491" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="491" data-product_sku="ex-12" aria-label="Thêm &ldquo;Arrow Exhaust – Honda&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
-</li>
-
-			
-					<li class="product type-product post-492 status-publish instock product_cat-exhausts product_tag-exhaust product_tag-suzuki has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+					<li class="product type-product post-492 status-publish first instock product_cat-exhausts product_tag-exhaust product_tag-suzuki has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
 	<a href="https://bcongminh.github.io/test/san-pham/arrow-exhaust-suzuki/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="https://bcongminh.github.io/test/wp-content/uploads/2022/10/152.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"><h2 class="woocommerce-loop-product__title">Arrow Exhaust – Suzuki</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
 	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>29.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
@@ -807,11 +847,23 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 </li>
 
 			
-					<li class="product type-product post-484 status-publish last instock product_cat-exhausts product_tag-exhausts has-post-thumbnail downloadable taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://bcongminh.github.io/test/san-pham/arrow-exhaust-aprilia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="https://bcongminh.github.io/test/wp-content/uploads/2022/10/163.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"><h2 class="woocommerce-loop-product__title">Arrow Exhaust – Aprilia</h2>
+					<li class="product type-product post-496 status-publish instock product_cat-exhausts product_tag-exhaust product_tag-yamaha has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+	<a href="https://bcongminh.github.io/test/san-pham/arrow-exhaust-yamaha/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="https://bcongminh.github.io/test/wp-content/uploads/2022/10/135.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"><h2 class="woocommerce-loop-product__title">Arrow Exhaust – Yamaha</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>19.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-</a><a href="https://bcongminh.github.io/test/san-pham/exhaust-suzuki-gsx/?add-to-cart=484" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="484" data-product_sku="ex-54" aria-label="Thêm &ldquo;Arrow Exhaust – Aprilia&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+	<span class="onsale">Giảm giá!</span>
+	
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>19.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>17.900,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</a><a href="https://bcongminh.github.io/test/san-pham/exhaust-suzuki-gsx/?add-to-cart=496" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="496" data-product_sku="exh-" aria-label="Thêm &ldquo;Arrow Exhaust – Yamaha&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+</li>
+
+			
+					<li class="product type-product post-1025 status-publish last instock product_cat-exhausts product_tag-exhaust product_tag-suzuki has-post-thumbnail sale sold-individually shipping-taxable purchasable product-type-simple">
+	<a href="https://bcongminh.github.io/test/san-pham/arrow-exhaust-suzuki-read/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="324" height="324" src="https://bcongminh.github.io/test/wp-content/uploads/2022/10/143.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy"><h2 class="woocommerce-loop-product__title">Arrow Exhaust – Suzuki-read</h2>
+<div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
+	<span class="onsale">Giảm giá!</span>
+	
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>950,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>800,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</a><a href="https://bcongminh.github.io/test/san-pham/exhaust-suzuki-gsx/?add-to-cart=1025" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1025" data-product_sku="ex-44" aria-label="Thêm &ldquo;Arrow Exhaust – Suzuki-read&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
 </li>
 
 			
@@ -895,6 +947,15 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 <!-- #page -->
 
 
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="pswp__bg"></div>
 	<div class="pswp__scroll-wrap">
@@ -936,7 +997,11 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 			document.body.className = c;
 		})();
 	</script>
-	<script src="https://bcongminh.github.io/test/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.9.4" id="jquery-blockui-js"></script>
+	<link rel="stylesheet" id="rs-plugin-settings-css" href="https://bcongminh.github.io/test/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.3" media="all">
+<style id="rs-plugin-settings-inline-css">#rs-demo-id {}</style>
+<script src="https://bcongminh.github.io/test/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.3" defer async id="tp-tools-js"></script>
+<script src="https://bcongminh.github.io/test/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.3" defer async id="revmin-js"></script>
+<script src="https://bcongminh.github.io/test/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.9.4" id="jquery-blockui-js"></script>
 <script id="wc-add-to-cart-js-extra">
 var wc_add_to_cart_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/myproject\/wordpress\/?wc-ajax=%%endpoint%%&elementor_page_id=506","i18n_view_cart":"Xem giỏ hàng","cart_url":"http:\/\/localhost:7000\/myproject\/wordpress\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
 </script>
@@ -963,7 +1028,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/ad
 <script src="https://bcongminh.github.io/test/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js?ver=4.1.3" id="storefront-header-cart-js"></script>
 <script src="https://bcongminh.github.io/test/wp-content/themes/storefront/assets/js/footer.min.js?ver=4.1.3" id="storefront-handheld-footer-bar-js"></script>
 <script id="eael-general-js-extra">
-var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"ee1ccf2b6c","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost:7000\/myproject\/wordpress\/san-pham\/exhaust-suzuki-gsx\/","cart_redirectition":"no","cart_page_url":"http:\/\/localhost:7000\/myproject\/wordpress\/gio-hang\/","el_breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+var localize = {"ajaxurl":"http:\/\/localhost:7000\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"c768a4e9bd","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost:7000\/myproject\/wordpress\/san-pham\/exhaust-suzuki-gsx\/","cart_redirectition":"no","cart_page_url":"http:\/\/localhost:7000\/myproject\/wordpress\/gio-hang\/","el_breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
 </script>
 <script src="https://bcongminh.github.io/test/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.3.2" id="eael-general-js"></script>
 <script id="storefront-sticky-add-to-cart-js-extra">
